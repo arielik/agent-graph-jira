@@ -12,10 +12,11 @@ The project follows a modular, professional architecture designed for scalabilit
 
 ```
 agent-graph-jira/
-├── data/                     # Data storage and persistence
-├── notebooks/                # Jupyter notebooks for experimentation
-├── src/                      # Main source code
-│   ├── core/                 # Core business logic
+├── data/                    # Data storage and persistence
+├── docs/                    # Documentation of the project 
+├── notebooks/               # Jupyter notebooks for experimentation
+├── src/                     # Main source code
+│   ├── core/                # Core business logic
 │   │   ├── agent/           # LangGraph agent implementation
 │   │   ├── prompts/         # AI prompt templates
 │   │   └── tools/           # JIRA integration tools
