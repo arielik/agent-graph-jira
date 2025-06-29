@@ -1,0 +1,14 @@
+global:
+  labels:
+    - "bug"
+    - "feature"
+  components:
+    - "UI"
+  project: "Project A"
+stories:
+  - key: "JIRA-1"
+    summary: "First JIRA issue"
+    description: "Description of the first JIRA issue"
+  - key: "JIRA-2"
+    summary: "Second JIRA issue"
+    description: "Description of the second JIRA issue"

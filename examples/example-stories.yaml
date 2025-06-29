@@ -1,0 +1,70 @@
+# Example YAML configuration for JIRA story generation
+# This file demonstrates the structure for defining stories that will be processed by the agent
+
+global:
+  project: "PROJ"  # Default JIRA project key
+  labels:
+    - "ai-generated"
+    - "automated"
+  components:
+    - "Backend"
+  epic: "PROJ-100"  # Optional epic link
+
+stories:
+  - title: "User Authentication System"
+    description: "Implement secure user authentication with multi-factor support"
+    priority: "High"
+    labels:
+      - "security"
+      - "authentication"
+    components:
+      - "Authentication"
+      - "Security"
+    issue_type: "Story"
+    
+  - title: "Dashboard Performance Optimization"
+    description: "Improve dashboard loading times and responsiveness"
+    priority: "Medium"
+    labels:
+      - "performance"
+      - "frontend"
+    components:
+      - "Frontend"
+      - "Performance"
+    issue_type: "Story"
+    
+  - title: "API Rate Limiting"
+    description: "Implement rate limiting for API endpoints to prevent abuse"
+    priority: "High"
+    labels:
+      - "api"
+      - "security"
+      - "infrastructure"
+    components:
+      - "API"
+      - "Infrastructure"
+    issue_type: "Story"
+    
+  - title: "Data Export Feature"
+    description: "Allow users to export their data in multiple formats (CSV, JSON, PDF)"
+    priority: "Low"
+    labels:
+      - "export"
+      - "data"
+      - "feature"
+    components:
+      - "Data Processing"
+      - "Frontend"
+    issue_type: "Story"
+    
+  - title: "Mobile App Push Notifications"
+    description: "Implement push notifications for mobile application users"
+    priority: "Medium"
+    labels:
+      - "mobile"
+      - "notifications"
+      - "engagement"
+    components:
+      - "Mobile"
+      - "Notifications"
+    issue_type: "Story"
